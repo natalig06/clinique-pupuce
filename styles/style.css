@@ -1,0 +1,66 @@
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+
+@import url("banner.css");
+@import url("footer.css");
+
+  font-family: http://fonts.google.com/specimen/Maven+Pro
+  color: #4bb5ff;
+ 
+}
+.bg-blue {
+  background-color: blue;
+  color: white;
+  font-weight: 300;
+  margin-top: 8%;
+}
+.bg-acqua {
+  background-color: yellow;
+  color: #4bb5ff;
+  font-weight: 300;
+  margin-top: 30%;
+}
+.images-padded {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.bg-blue h2 {
+  font-size: 35px;
+}  
+.bg-blue p {
+  font-size: 10px;
+}
+.bg-white p {
+  font-size: 16px;
+ 
+}
+#navbar {
+  top: 0px;
+  bottom: 3px;
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  text-align: right;
+}
+#navbar li{
+  border-left:1px #ccc solid;
+}
+#navbar li a{
+  margin: 5px 0;
+  font-size: 16px;
+  color: #4bb5ff  ;
+}
+#navbar li a:hover{
+  color: blue  ;
+}
+.navbar-header{height: 55px;}
+.navbar-brand img{margin-left: 54px; margin-top: -13px;}
+#footer {
+}
+.bg-blue strong {
+  color: orange;
+}
+#center {
+  text-align: center;
+}

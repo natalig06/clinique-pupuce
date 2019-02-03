@@ -1,0 +1,202 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Clinique Véterinaire chez Pupuce</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/banner.css">
+  <link href=http://fonts.google.com/specimen/Maven+Pro/css?family=Open+Sans: rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Menu"><img src="images/logo.jpeg" width="100" height="60"></a>
+        </div>
+        <div class="navbar-collapse" id="myNavbar">
+          <div>
+            <ul class="nav navbar-nav pull-right">   
+              <li>
+                <a href="#Equipe" class="">L'équipe</a>
+              </li>
+              <li>
+                <a href="#Produits" class="">Les produits</a>
+              </li>
+              <li>
+                <a href="#La clinique" class="">La clinique</a>
+              </li>
+              <li>
+                <a href="#Infos" class="">Infos Pratiques</a>
+              </li>
+              <li>
+                <a href="#Contact" class="">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </div>
+  <section class="content">
+    <div id="site">
+      <div class="text-center">
+        <div id="banner">          
+        </div>
+      </div>
+    </div>
+    <div class="bg-blue text-padded">
+      <div class="container text-center", id="Equipe">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="card" id="text-center">
+              <h1>Equipe</h1>
+              <li><h2>Rebecca Nains</h2></li>
+              <li><h2>Louis Béranger</h2></li>
+<img src="images/rebecca.jpg" /><img src="images/louis.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-acqua text-padded">
+      <div class="container text-center", id="Produits">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Les produits</h1>
+            <img src="images/niche.jpg"/><img src="images/nourriture.jpg"><img src="images/shampooing.jpg"/><img src="images/collerette.jpg/"><img src="images/balle.jpg/"><img src="images/collier.jpg/">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="images-padded text-padded">
+      <div class="container text-center", id="La clinique">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>La Clinique</h1>
+          </div>
+        </div>
+        <div class="Services">
+              <img src="images/clinique.jpg" style="width: 850px; height: 300px; margin-left: -30px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-blue text-padded">
+      <div class="container text-center">
+        <div class="Services">
+          <div class="col-xs-12 col-sm-6 col-md-4">     
+            <div class="card">
+              <img src="images/salle.jpg" style="width: 150px; height: 150px;">
+              <h2>Salle d'operation</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="images/commercial.jpg" style="width: 150px; height: 150px;">
+              <h2>Espace commercial</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="images/soins.jpg" style="width: 150px; height: 150px;">
+              <h2>Soins</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white text-padded">
+      <div class="container text-center", id="Infos"> 
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="card">
+              <h2>CLINIQUE VETERINAIRE</h2>
+              <h2>SOINS ET PRODUITS</h2>
+              <p>TÉL. : 01 02 03 04 05</p>
+              <p>(7J/7 – 24h/24)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="card">
+              <h2>ADRESSE</h2>
+              <p>69 AVENUE DU CHENIL</p>
+              <p>06150 CANNES</p>
+            </div>
+          </div>
+    <div class="bg-white text-padded">
+      <div class="container text-center", id="Contact">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="card">
+              <div id="map" style="width: 500px; height: 250px;"></div>
+        </section>           
+              <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+              <script type="text/javascript">
+                var myLatlng = new google.maps.LatLng();
+                var myOptions = {
+                  zoom: 16,
+                  center: myLatlng,
+                  scrollwheel: false,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP,
+                styles: [] 
+              };
+              var map = new google.maps.Map(document.getElementById('map'), myOptions);
+              var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: "Vous etes ici"
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="card">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+<section id="section-footer">
+  <div class="container">
+    <div class="footer">
+      <div class="text-center", id="contact">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="card">
+              <h2>Contact</h2>
+              <h2>RDV : 01 02 03 04 05</h2>
+              <h2>Clinique chez Pupuce : 06 01 02 03 04</h2>
+              <h4>Mail : cliniquechezpupuce@gmail.com</h4>
+            </div>
+            <div>
+              <ul class="list-inline social-link">
+                <a href="https://www.facebook.com/><i class="fa fa-facebook"> </i></a>
+                <a href="https://www.instagram.com/><i class="fa fa-instagram"> </i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

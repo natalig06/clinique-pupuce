@@ -1,0 +1,38 @@
+#site{
+  background-image: url(../images/pupuce.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  margin-top: 10%;
+  }
+#banner {
+  padding: 296px 0;
+ }
+#banner h1{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 25px;
+}
+#banner h2{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+#banner p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size : 25px;
+  font-weight: 100;
+  margin-top: -35px;
+  color: white;
+  text-shadow: 0 2px 0 rgb(8, 8, 8);
+}
+#mce-EMAIL {
+  margin-right: 16px;
+}
+#align {
+  text-align: justify;
+}
+
